@@ -12,7 +12,6 @@ permissions:
 jobs:
 
   deploy-docs:
-    needs: [test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,5 +28,4 @@ jobs:
         with:
           path: site
       - name: Deploy to GitHub Pages
-        id: deploy-pages
         uses: actions/deploy-pages@v3
