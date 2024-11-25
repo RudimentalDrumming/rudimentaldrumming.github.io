@@ -1,0 +1,29 @@
+site_name: "Rudimental Drumming"
+docs_dir: doc/
+repo_name: Rudimental Drumming
+theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  name: material
+  custom_dir: doc/override/
+  favicon: img/favicon.ico
+  logo: img/logo.svg
+  palette:
+    primary: 'white'
+    accent: 'black'
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.extra
+  - pymdownx.highlight:
+      use_pygments: true
+
+extra_css:
+  - css/custom.css
+
+nav:
+  - Home: index.md
+  - Installation: installation.md

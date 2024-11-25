@@ -1,0 +1,183 @@
+<!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    header,
+    nav {
+        background: transparent !important;
+        border-bottom: none !important;
+    }
+
+    h1 {
+        margin-bottom: 0px !important;
+    }
+
+    .hideme {
+        display: none !important;
+    }
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+
+    main {
+        position: relative;
+        top: 35vh !important;
+    }
+
+    .md-nav__title {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+
+    .mdx-hero__image {
+        position: relative;
+        margin-top: -4.9rem;
+        opacity: 0.15;
+    }
+
+    .mdx-hero__content {
+        position: absolute;
+        top: 20vh;
+        width: 100%;
+    }
+
+
+    .content-content {
+        padding-left: 30px
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+
+    .md-button {
+        border-color: #061b30 !important;
+        color: #061b30 !important;
+    }
+
+    .md-button:hover {
+        background-color: #092746 !important;
+        color: white !important
+    }
+
+    .md-button--primary {
+        background-color: #061b30 !important;
+        color: white !important
+    }
+
+    .md-tabs__item {
+        border-bottom: 0.05rem solid #00000012;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+    }
+
+    .wrap-bg {
+        position: absolute;
+        width: 100%;
+    }
+
+    .wrap {
+        position: relative;
+        top: 20hv;
+    }
+
+    .title-text {
+      font-weight: 900 !important;
+      color: #061b30 !important;
+    }
+  </style>
+
+  <!-- Hero for landing page -->
+  <section class="mdx-container wrap-bg">
+    <div class="md-typeset">
+      <div class="mdx-hero">
+
+        <!-- Hero image -->
+        <div class="mdx-hero__image">
+          <img
+            src="assets/hero.svg"
+            alt=""
+            width="100%"
+            draggable="false"
+          >
+        </div>
+
+        <!-- Hero content -->
+        <div class="mdx-hero__content">
+            <div class="md-grid content-content">
+                <h1 class="title-text">Rudimental Drumming Notation</h1>
+                <p>Get started in 5 minutes</p>
+                <a
+                  href="/"
+                  title="Write Scores"
+                  class="md-button md-button--primary"
+                >
+                  Write Scores!
+                </a>
+                <a
+                  href="/installation"
+                  title="Installation"
+                  class="md-button"
+                >
+                  Tooling Installation
+                </a>
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+  <div class="wrap">
+    {{ page.content }}
+  </div>
+{% endblock %}
+
+<!-- Application footer -->
+<!-- {% block footer %}{% endblock %} -->

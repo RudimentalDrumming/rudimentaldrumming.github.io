@@ -1,0 +1,33 @@
+.file {
+    position: relative;
+    padding: 0em 0em;
+    margin: 0px !important;
+    color: #fff;
+}
+
+.file:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 16px 16px 0;
+    border-style: solid;
+    border-color: #868686 #fff;
+    z-index: 1;
+}
+
+
+/* FIXME: ugly markdown highlight fixes */
+.file code * {
+    color: #444;
+}
+
+.file code .gu .hljs-comment {
+    font-weight: bold;
+    color: rgb(31, 31, 31) !important;
+}
+
+.file code .hljs-attribute {
+    font-weight: normal;
+    color: #444;
+}
