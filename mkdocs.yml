@@ -2,9 +2,7 @@ site_name: "Rudimental Drumming"
 docs_dir: doc/
 repo_name: Rudimental Drumming
 theme:
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+
   name: material
   custom_dir: doc/override/
   favicon: img/favicon.ico
@@ -26,4 +24,4 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Installation: installation.md
+  - Setup | MuseScore 4: setup.md

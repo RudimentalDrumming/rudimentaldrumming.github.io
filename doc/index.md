@@ -3,5 +3,5 @@ template: home.html
 title: Rudimental Drumming
 ---
 
-Write Swiss Rudimental Drumming notation using [MuseScore](https://musescore.org/)
-and our provided templates, completely for free!
+Schweizer Trommel Notation schreiben mit [MuseScore](https://musescore.org/)! <br />
+Komplett kostenlos mit unseren Templates und Soundfonts .
