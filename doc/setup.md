@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - footer
----
-
 # MuseScore für Trommelnoten
 
 Das Schreiben von Trommelnoten war bis jetzt nur mit Trommelfont möglich.

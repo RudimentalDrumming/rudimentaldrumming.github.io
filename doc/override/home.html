@@ -45,12 +45,11 @@
 
     /* Application header should be static for the landing page */
     .md-header {
-      position: initial;
+        position: initial;
     }
 
     main {
-        position: relative;
-        top: 35vh !important;
+        margin-top: 340px;
     }
 
     .md-nav__title {
@@ -63,6 +62,13 @@
         position: relative;
         margin-top: -4.9rem;
         opacity: 0.15;
+
+        background-image: url(assets/hero.svg);
+        width:  100%; /*or 70%, or what you want*/
+        height: 100vh; /*or 70%, or what you want*/
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
     }
 
     .mdx-hero__content {
@@ -120,7 +126,8 @@
 
     .wrap {
         position: relative;
-        top: 10hv;
+        top: 15hv;
+        margin-left: 12px
     }
 
     .title-text {
@@ -136,12 +143,13 @@
 
         <!-- Hero image -->
         <div class="mdx-hero__image">
-          <img
+          <!-- <img
             src="assets/hero.svg"
             alt=""
             width="100%"
+            height="100%"
             draggable="false"
-          >
+          > -->
         </div>
 
         <!-- Hero content -->
