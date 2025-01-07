@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.40">
+  <Drum pitch="60">
+    <head>normal</head>
+    <line>7</line>
+    <voice>0</voice>
+    <name>Tom 1</name>
+    <stem>2</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  <Drum pitch="61">
+    <head>normal</head>
+    <line>5</line>
+    <voice>0</voice>
+    <name>Tom 2</name>
+    <stem>2</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  <Drum pitch="62">
+    <head>normal</head>
+    <line>3</line>
+    <voice>0</voice>
+    <name>Tom 3</name>
+    <stem>2</stem>
+    <shortcut>C</shortcut>
+    </Drum>
+  <Drum pitch="63">
+    <head>normal</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Tom 4</name>
+    <stem>2</stem>
+    <shortcut>D</shortcut>
+    </Drum>
+  <Drum pitch="64">
+    <head>swiss-rudiments-flam</head>
+    <line>7</line>
+    <voice>0</voice>
+    <name>Tom 1 Schlepp</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="65">
+    <head>swiss-rudiments-flam</head>
+    <line>5</line>
+    <voice>0</voice>
+    <name>Tom 2 Schlepp</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="66">
+    <head>swiss-rudiments-flam</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Tom 3 Schlepp</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="67">
+    <head>swiss-rudiments-flam</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Tom 4 Schlepp</name>
+    <stem>2</stem>
+    </Drum>
+  </museScore>

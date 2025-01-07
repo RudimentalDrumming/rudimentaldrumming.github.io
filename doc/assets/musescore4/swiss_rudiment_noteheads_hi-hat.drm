@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.40">
+  <Drum pitch="65">
+    <head>cross</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Schlag rechts</name>
+    <stem>2</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  <Drum pitch="66">
+    <head>cross</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Schlag links</name>
+    <stem>2</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  <Drum pitch="67">
+    <head>xcircle</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Schlag offen rechts</name>
+    <stem>2</stem>
+    <shortcut>C</shortcut>
+    </Drum>
+  <Drum pitch="68">
+    <head>xcircle</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Schlag offen links</name>
+    <stem>2</stem>
+    <shortcut>D</shortcut>
+    </Drum>
+  <Drum pitch="69">
+    <head>triangle-up</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Bell rechts</name>
+    <stem>2</stem>
+    <shortcut>E</shortcut>
+    </Drum>
+  <Drum pitch="70">
+    <head>triangle-up</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Bell links</name>
+    <stem>2</stem>
+    <shortcut>F</shortcut>
+    </Drum>
+  </museScore>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.40">
+  <Drum pitch="65">
+    <head>normal</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Schlag rechts</name>
+    <stem>2</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  <Drum pitch="66">
+    <head>normal</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Schlag links</name>
+    <stem>2</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  <Drum pitch="67">
+    <head>swiss-rudiments-flam</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Schlepp rechts</name>
+    <stem>2</stem>
+    <shortcut>C</shortcut>
+    </Drum>
+  <Drum pitch="68">
+    <head>swiss-rudiments-flam</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Schlepp links</name>
+    <stem>2</stem>
+    <shortcut>D</shortcut>
+    </Drum>
+  <Drum pitch="69">
+    <head>swiss-rudiments-double</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Doublé rechts</name>
+    <stem>2</stem>
+    <shortcut>E</shortcut>
+    </Drum>
+  <Drum pitch="70">
+    <head>swiss-rudiments-double</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Doublé links</name>
+    <stem>2</stem>
+    <shortcut>F</shortcut>
+    </Drum>
+  <Drum pitch="77">
+    <head>normal</head>
+    <noteheads>
+      <whole>noteheadHalf</whole>
+      <half>noteheadHalf</half>
+      <quarter>noteheadHalf</quarter>
+      <breve>noteheadHalf</breve>
+      </noteheads>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Backstick rechts</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="78">
+    <head>normal</head>
+    <noteheads>
+      <whole>noteheadHalf</whole>
+      <half>noteheadHalf</half>
+      <quarter>noteheadHalf</quarter>
+      <breve>noteheadHalf</breve>
+      </noteheads>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Backstick links</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="79">
+    <head>normal</head>
+    <noteheads>
+      <whole></whole>
+      <half>swissRudimentsNoteheadHalfFlam</half>
+      <quarter>swissRudimentsNoteheadHalfFlam</quarter>
+      <breve></breve>
+      </noteheads>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Schlepp-Backstick rechts</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="80">
+    <head>normal</head>
+    <noteheads>
+      <whole></whole>
+      <half>swissRudimentsNoteheadHalfFlam</half>
+      <quarter>swissRudimentsNoteheadHalfFlam</quarter>
+      <breve></breve>
+      </noteheads>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Schlepp Backstick links</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="89">
+    <head>cross</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Stick-Click rechts</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="90">
+    <head>cross</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Stick-Click links</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="91">
+    <head>cross</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Rim-Click rechts</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="92">
+    <head>cross</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Rim-Click links</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="93">
+    <head>xcircle</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Rim Shot rechts</name>
+    <stem>2</stem>
+    </Drum>
+  <Drum pitch="94">
+    <head>xcircle</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Rim Shot links</name>
+    <stem>2</stem>
+    </Drum>
+  </museScore>
