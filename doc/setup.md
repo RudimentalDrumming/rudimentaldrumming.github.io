@@ -98,4 +98,3 @@ Das folgende Video gibt noch einen Überblick wie man am besten mit MuseScore 4 
 
 Das war’s! Jetzt kennst du die Grundlagen, um mit MuseScore 4 und Rudimental Drumming zu arbeiten.
 Probier es aus und lass deiner Kreativität freien Lauf. Wenn du Fragen oder Anregungen hast, lass es uns wissen.
-Viel Spaß und bis zum nächsten Mal!
